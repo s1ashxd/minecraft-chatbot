@@ -1,0 +1,26 @@
+{
+  "name": "wyvernbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "start": "tsc && node build/index.js",
+    "deploy": "tsc && node build/deploy.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "dotenv": "^16.0.3",
+    "mineflayer": "^4.4.0",
+    "pngjs": "^6.0.0",
+    "socks": "^2.7.1"
+  },
+  "devDependencies": {
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^18.8.4",
+    "@types/pngjs": "^6.0.1"
+  }
+}
